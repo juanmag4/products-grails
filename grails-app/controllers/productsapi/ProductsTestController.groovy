@@ -34,6 +34,7 @@ class ProductsTestController {
     */
     def editProduct(Integer id) {
         def product = productsapi.Product.get(id)
+
         [productInstance: product]
     }
 
