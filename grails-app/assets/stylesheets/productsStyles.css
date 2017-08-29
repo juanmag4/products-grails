@@ -1,0 +1,16 @@
+.table-border {
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.navbar-position{
+    position: fixed;
+    width: -webkit-fill-available;
+    z-index: 9999;
+}
+
+.table-position {
+    top: 60px;
+    position: relative;
+}
